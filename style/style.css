@@ -1,0 +1,194 @@
+/* Meddical Health Center - Global Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+:root {
+  --primary-dark: #1F2B6C;
+  --primary-light: #159EEC;
+  --accent-blue: #BFD2F8;
+  --white: #FFFFFF;
+  --text-gray: #666666;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--primary-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+  font-weight: 700;
+}
+
+/* --- Utilities --- */
+.ls-3 { letter-spacing: 3px; }
+.ls-1 { letter-spacing: 1px; }
+
+.section-padding { padding: 80px 0; }
+@media (max-width: 991px) { .section-padding { padding: 60px 0; } }
+
+/* --- Buttons --- */
+.btn-meddical {
+  background-color: var(--accent-blue);
+  color: var(--primary-dark);
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 0.8rem 2.5rem;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.btn-meddical:hover {
+  background-color: var(--primary-light);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-meddical-dark {
+  background-color: var(--primary-dark);
+  color: white;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 0.8rem 2.5rem;
+  transition: all 0.3s ease;
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+/* --- Decorative Accent Stripes --- */
+.accent-stripes {
+  display: flex;
+  height: 10px;
+  width: 100%;
+}
+.stripe-1 { background-color: var(--accent-blue); flex: 0 0 22.5%; }
+.stripe-2 { background-color: var(--primary-dark); flex: 0 0 60%; }
+.stripe-3 { background-color: var(--primary-light); flex: 0 0 17.5%; }
+
+/* --- Hero Section --- */
+.hero-section {
+  background: linear-gradient(135deg, #FAFDFE 0%, #F1F8FC 100%);
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.hero-circle-accent {
+  position: absolute;
+  background-color: var(--accent-blue);
+  border-radius: 50%;
+  z-index: 0;
+  width: 450px;
+  height: 450px;
+  right: -50px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.8;
+}
+
+/* --- Feature Cards --- */
+.features-wrapper {
+  margin-top: -4rem;
+  position: relative;
+  z-index: 10;
+}
+.feature-card {
+  padding: 2.5rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease;
+  border: none;
+  min-height: 160px;
+}
+.feature-card-navy { background-color: var(--primary-dark); color: white; }
+.feature-card-lavender { background-color: var(--accent-blue); color: var(--primary-dark); }
+.feature-card-cyan { background-color: var(--primary-light); color: white; }
+
+/* --- Services Sidebar --- */
+.services-sidebar .list-group-item {
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.services-sidebar .list-group-item:not(.active) {
+  background-color: white;
+  color: var(--primary-dark);
+}
+.services-sidebar .list-group-item.active {
+  background-color: var(--primary-dark) !important;
+  color: white;
+}
+
+/* --- Specialty Cards --- */
+.specialty-card {
+  border: 1px solid #eee;
+  padding: 3rem 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.specialty-card.active {
+  background-color: var(--primary-dark);
+  color: white;
+}
+
+/* --- Contact & Footer --- */
+.contact-card-light { background-color: var(--accent-blue); color: var(--primary-dark); }
+.contact-card-dark { background-color: var(--primary-dark); color: white; }
+
+.newsletter-input-container {
+  display: flex;
+  background-color: var(--accent-blue);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.newsletter-input-container input {
+  background: transparent;
+  border: none;
+  padding: 0.8rem 1rem;
+  color: var(--primary-dark);
+  flex-grow: 1;
+}
+.newsletter-input-container input::placeholder { color: var(--primary-dark); opacity: 0.7; }
+.newsletter-btn {
+  background: transparent;
+  border: none;
+  color: var(--primary-dark);
+  padding: 0 1rem;
+}
+
+.footer-social-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--accent-blue);
+  color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.footer-social-circle:hover {
+  background-color: var(--white);
+  transform: translateY(-3px);
+}
