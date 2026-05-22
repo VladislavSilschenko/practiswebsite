@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meddical - Health Center</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" />
+  </head>
+  <body class="medical-theme">
+    
+    <!-- Top Header -->
+    <header class="bg-white border-bottom py-3 d-none d-lg-block">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a class="navbar-brand fw-bold fs-3" href="#" style="text-decoration: none;">
+          <span style="color: var(--primary-dark);">MED</span><span style="color: var(--primary-light);">DICAL</span>
+        </a>
+
+        <div class="d-flex gap-5">
+          <div class="d-flex align-items-center gap-2">
+            <i class="bi bi-telephone text-primary fs-3"></i>
+            <div class="small">
+              <strong class="d-block text-uppercase text-dark" style="font-size: 0.75rem;">Emergency</strong>
+              <span class="text-primary-light fw-bold">(237) 681-812-255</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <i class="bi bi-geo-alt text-primary fs-3"></i>
+            <div class="small">
+              <strong class="d-block text-uppercase text-dark" style="font-size: 0.75rem;">Location</strong>
+              <span class="text-primary-light fw-bold">0123 Some Place</span>
+            </div>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <i class="bi bi-clock text-primary fs-3"></i>
+            <div class="small">
+              <strong class="d-block text-uppercase text-dark" style="font-size: 0.75rem;">Work Hour</strong>
+              <span class="text-primary-light fw-bold">09:00 - 20:00 Everyday</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-0 shadow-sm" style="background-color: var(--primary-dark) !important;">
+      <div class="container">
+        <a class="navbar-brand d-lg-none py-3 fw-bold text-white" href="#" style="text-decoration: none;">MEDDICAL</a>
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#meddicalNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="meddicalNav">
+          <ul class="navbar-nav me-auto py-2 py-lg-0">
+            <li class="nav-item"><a class="nav-link active fw-bold px-lg-3" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold px-lg-3 text-white" href="#welcome-section">About us</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold px-lg-3 text-white" href="#services-section">Services</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold px-lg-3 text-white" href="#doctors-section">Doctors</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold px-lg-3 text-white" href="#news-section">News</a></li>
+            <li class="nav-item"><a class="nav-link fw-semibold px-lg-3 text-white" href="#appointment-section">Contact</a></li>
+          </ul>
+          <div class="d-flex align-items-center gap-3 py-2 py-lg-0 ms-lg-auto">
+            <button class="btn text-white p-0 shadow-none"><i class="bi bi-search fs-5"></i></button>
+            <a href="#appointment-section" class="btn btn-meddical px-4">Appointment</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero-section overflow-hidden">
+      <div class="container position-relative z-1">
+        <div class="row align-items-center py-5" style="min-height: 500px;">
+          <div class="col-lg-7 text-center text-lg-start mb-5 mb-lg-0">
+            <h6 class="text-primary fw-bold text-uppercase ls-3 mb-3">Caring for life</h6>
+            <h1 class="display-3 fw-bold text-primary-dark mb-4 lh-tight">Leading the Way <br class="d-none d-lg-block"> in Medical Excellence</h1>
+            <a href="#services-section" class="btn btn-meddical px-5 py-3">Our Services</a>
+          </div>
+          <div class="col-lg-5 d-none d-lg-block">
+            <div class="position-relative">
+              <div class="hero-circle-accent"></div>
+              <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=1200&q=80" class="img-fluid rounded-pill shadow-lg position-relative z-1" alt="Doctor" style="max-height: 500px; width: 100%; object-fit: cover;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overlapping Features -->
+    <div class="container features-wrapper">
+      <div class="row g-0 shadow-lg rounded overflow-hidden">
+        <div class="col-lg-4">
+          <div class="feature-card feature-card-navy">
+            <div class="feature-text">
+              <h5 class="fw-bold mb-0">Book Appointment</h5>
+            </div>
+            <i class="bi bi-calendar-event fs-3 text-primary-light"></i>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="feature-card feature-card-lavender">
+            <div class="feature-text">
+              <h5 class="fw-bold mb-0">Team Professionals</h5>
+            </div>
+            <i class="bi bi-person-badge fs-3"></i>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="feature-card feature-card-cyan">
+            <div class="feature-text">
+              <h5 class="fw-bold mb-0">Emergency Care</h5>
+            </div>
+            <i class="bi bi-heart-pulse-fill fs-3"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Welcome Section (About Us) -->
+    <section class="section-padding bg-white" id="welcome-section">
+      <div class="container text-center">
+        <span class="text-primary-light fw-bold text-uppercase ls-3 mb-2 d-block">WELCOME TO MEDDICAL</span>
+        <h2 class="display-5 fw-bold text-primary-dark mb-4 mx-auto" style="max-width: 800px;">A Great Place to Receive Care</h2>
+        
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-8">
+            <p class="lead text-gray px-lg-5 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.
+            </p>
+            <a href="#" class="text-primary-light fw-bold text-decoration-none d-inline-flex align-items-center gap-2 transition-all">
+              Learn More <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="position-relative mx-auto mt-5 rounded overflow-hidden shadow-lg" style="max-width: 1000px;">
+          <img 
+            src="./src/assets/images/medical_team_banner_1778742869184.png" 
+            alt="Meddical Team" 
+            class="img-fluid"
+          />
+          <div class="accent-stripes">
+            <div class="stripe-1"></div>
+            <div class="stripe-2"></div>
+            <div class="stripe-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section class="section-padding bg-white" id="services-section">
+      <div class="container text-center">
+        <div class="mb-5">
+          <span class="text-primary-light fw-bold text-uppercase ls-3 mb-2 d-block">CARE YOU CAN BELIEVE IN</span>
+          <h2 class="display-5 fw-bold text-primary-dark">Our Services</h2>
+        </div>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-lg-3">
+            <div class="services-sidebar border rounded overflow-hidden shadow-sm bg-white text-start">
+              <div class="list-group list-group-flush">
+                <button class="list-group-item list-group-item-action active" data-service="cardiogram">
+                  <i class="bi bi-heart-pulse-fill fs-4"></i>
+                  <span>Cardiogram</span>
+                </button>
+                <button class="list-group-item list-group-item-action" data-service="free-checkup">
+                  <i class="bi bi-clipboard-pulse fs-4 text-primary-light"></i>
+                  <span>Free Checkup</span>
+                </button>
+                <button class="list-group-item list-group-item-action" data-service="dna-testing">
+                  <i class="bi bi-dna fs-4 text-primary-light"></i>
+                  <span>DNA Testing</span>
+                </button>
+                <button class="list-group-item list-group-item-action" data-service="blood-bank">
+                  <i class="bi bi-droplet-fill fs-4 text-primary-light"></i>
+                  <span>Blood Bank</span>
+                </button>
+              </div>
+              <a href="#" class="btn btn-primary-dark w-100 py-3 fw-bold text-white rounded-0 text-center" style="background-color: var(--primary-dark); text-decoration: none;">View All</a>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 text-start px-lg-4">
+            <div id="services-content-area">
+              <h3 class="display-6 fw-bold text-primary-dark mb-4" id="service-title">A passion for putting patients first.</h3>
+              <div class="row row-cols-1 row-cols-md-2 g-3 mb-4" id="service-bullets">
+                <div class="col d-flex align-items-center gap-2">
+                  <i class="bi bi-check-circle-fill text-primary-light small"></i>
+                  <span class="fw-medium">A Passion for Healing</span>
+                </div>
+                <div class="col d-flex align-items-center gap-2">
+                  <i class="bi bi-check-circle-fill text-primary-light small"></i>
+                  <span class="fw-medium">5-Star Care</span>
+                </div>
+                <div class="col d-flex align-items-center gap-2">
+                  <i class="bi bi-check-circle-fill text-primary-light small"></i>
+                  <span class="fw-medium">Believe in Us</span>
+                </div>
+                <div class="col d-flex align-items-center gap-2">
+                  <i class="bi bi-check-circle-fill text-primary-light small"></i>
+                  <span class="fw-medium">Legacy of Excellence</span>
+                </div>
+              </div>
+              <div class="text-gray h6 lh-lg" id="service-paragraphs">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur proin massa in.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Convallis felis vitae tortor augue.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 d-none d-lg-block">
+            <div class="d-flex flex-column gap-4" id="services-images-area">
+              <div class="position-relative rounded overflow-hidden shadow-sm" style="height: 220px;">
+                <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80" class="w-100 h-100 object-fit-cover" alt="Service">
+                <div class="accent-stripes position-absolute bottom-0 w-100">
+                  <div class="stripe-1"></div>
+                  <div class="stripe-2"></div>
+                  <div class="stripe-3"></div>
+                </div>
+              </div>
+              <div class="position-relative rounded overflow-hidden shadow-sm" style="height: 220px;">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80" class="w-100 h-100 object-fit-cover" alt="Service">
+                <div class="accent-stripes position-absolute bottom-0 w-100">
+                  <div class="stripe-1"></div>
+                  <div class="stripe-2"></div>
+                  <div class="stripe-3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Specialties Section -->
+    <section class="section-padding bg-light" id="specialties-section">
+      <div class="container text-center">
+        <div class="mb-5">
+          <span class="text-primary-light fw-bold text-uppercase ls-3 mb-2 d-block">ALWAYS CARING</span>
+          <h2 class="display-5 fw-bold text-primary-dark">Our Specialties</h2>
+        </div>
+ 
+        <div class="row g-0 border rounded shadow overflow-hidden d-none d-lg-flex">
+          <div class="col-lg-3 specialty-card border p-5 d-flex flex-column align-items-center justify-content-center transition-all bg-white hover-card cursor-pointer">
+            <i class="bi bi-brain fs-1 text-primary mb-3"></i>
+            <span class="fw-bold text-primary-dark">Neurology</span>
+          </div>
+          <div class="col-lg-3 specialty-card border p-5 d-flex flex-column align-items-center justify-content-center transition-all bg-primary-dark text-white cursor-pointer">
+            <i class="bi bi-heart-pulse fs-1 mb-3"></i>
+            <span class="fw-bold text-uppercase ls-2">Bones</span>
+          </div>
+          <div class="col-lg-3 specialty-card border p-5 d-flex flex-column align-items-center justify-content-center transition-all bg-white hover-card cursor-pointer">
+            <i class="bi bi-virus fs-1 text-primary mb-3"></i>
+            <span class="fw-bold text-primary-dark">Oncology</span>
+          </div>
+          <div class="col-lg-3 specialty-card border p-5 d-flex flex-column align-items-center justify-content-center transition-all bg-white hover-card cursor-pointer">
+            <i class="bi bi-ear fs-1 text-primary mb-3"></i>
+            <span class="fw-bold text-primary-dark small text-center">Otorhinolaryngology</span>
+          </div>
+          <div class="col-lg-3 specialty-card border p-5 d-flex flex-column align-items-center justify-content-center transition-all bg-white hover-card cursor-pointer">
+            <i class="bi bi-eye fs-1 text-primary mb-3"></i>
+            <span class="fw-bold text-primary-dark">Ophthalmology</span>
+          </div>
+          <div class="col-lg-3 specialty-card border p-5 d-flex flex-column align-items-center justify-content-center transition-all bg-white hover-card cursor-pointer">
+            <i class="bi bi-lungs fs-1 text-primary mb-3"></i>
+            <span class="fw-bold text-primary-dark">Pulmonology</span>
+          </div>
+          <div class="col-lg-3 specialty-card border p-5 d-flex flex-column align-items-center justify-content-center transition-all bg-white hover-card cursor-pointer">
+            <i class="bi bi-droplet fs-1 text-primary mb-3"></i>
+            <span class="fw-bold text-primary-dark">Renal Medicine</span>
+          </div>
+          <div class="col-lg-3 specialty-card border p-5 d-flex flex-column align-items-center justify-content-center transition-all bg-white hover-card cursor-pointer">
+            <i class="bi bi-stomach fs-1 text-primary mb-3"></i>
+            <span class="fw-bold text-primary-dark">Gastroenterology</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <div class="d-lg-none mt-4">
+          <p class="text-muted">Specialties available. Tap buttons below for more.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Doctors Section -->
+    <section class="doctors-section py-5 bg-white" id="doctors-section">
+      <div class="container text-center">
+        
+        <!-- Section Header -->
+        <div class="mb-5">
+          <span class="doctors-subtitle text-primary fw-bold text-uppercase ls-3 mb-2 d-block">TRUSTED CARE</span>
+          <h2 class="display-5 fw-bold text-dark">Our Doctors</h2>
+        </div>
+
+        <!-- Doctors Grid -->
+        <div class="row g-4 justify-content-center">
+            
+            <!-- Doctor 1 Card -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card rounded shadow-sm border-0 h-100 overflow-hidden text-center bg-white">
+                <div class="card-img-top" style="height: 350px;">
+                  <img 
+                    src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=600&q=80" 
+                    alt="Doctor's Name" 
+                    class="w-100 h-100 object-fit-cover"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="card-body p-4" style="background-color: #BFD2F8; color: var(--primary-dark);">
+                  <h3 class="h5 fw-bold mb-1 text-primary-dark">Doctor's Name</h3>
+                  <div class="small fw-bold text-uppercase ls-1 opacity-75 mb-3">NEUROLOGY</div>
+                  <div class="d-flex justify-content-center gap-3 mb-3">
+                    <a href="#" class="text-primary-dark fs-5 transition-all"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-primary-dark fs-5 transition-all"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-primary-dark fs-5 transition-all"><i class="bi bi-instagram"></i></a>
+                  </div>
+                </div>
+                <a href="#appointment-section" class="btn btn-primary-custom w-100 rounded-0 py-3 fw-bold text-white" style="background-color: var(--primary-dark);">View Profile</a>
+              </div>
+            </div>
+
+            <!-- Doctor 2 Card -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card rounded shadow-sm border-0 h-100 overflow-hidden text-center bg-white">
+                <div class="card-img-top" style="height: 350px;">
+                  <img 
+                    src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=600&q=80" 
+                    alt="Doctor's Name" 
+                    class="w-100 h-100 object-fit-cover"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="card-body p-4" style="background-color: #BFD2F8; color: var(--primary-dark);">
+                  <h3 class="h5 fw-bold mb-1 text-primary-dark">Doctor's Name</h3>
+                  <div class="small fw-bold text-uppercase ls-1 opacity-75 mb-3">NEUROLOGY</div>
+                  <div class="d-flex justify-content-center gap-3 mb-3">
+                    <a href="#" class="text-primary-dark fs-5 transition-all"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-primary-dark fs-5 transition-all"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-primary-dark fs-5 transition-all"><i class="bi bi-instagram"></i></a>
+                  </div>
+                </div>
+                <a href="#appointment-section" class="btn btn-primary-custom w-100 rounded-0 py-3 fw-bold text-white" style="background-color: var(--primary-dark);">View Profile</a>
+              </div>
+            </div>
+
+            <!-- Doctor 3 Card -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card rounded shadow-sm border-0 h-100 overflow-hidden text-center bg-white">
+                <div class="card-img-top" style="height: 350px;">
+                  <img 
+                    src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80" 
+                    alt="Doctor's Name" 
+                    class="w-100 h-100 object-fit-cover"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="card-body p-4" style="background-color: #BFD2F8; color: var(--primary-dark);">
+                  <h3 class="h5 fw-bold mb-1 text-primary-dark">Doctor's Name</h3>
+                  <div class="small fw-bold text-uppercase ls-1 opacity-75 mb-3">NEUROLOGY</div>
+                  <div class="d-flex justify-content-center gap-3 mb-3">
+                    <a href="#" class="text-primary-dark fs-5 transition-all"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-primary-dark fs-5 transition-all"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-primary-dark fs-5 transition-all"><i class="bi bi-instagram"></i></a>
+                  </div>
+                </div>
+                <a href="#appointment-section" class="btn btn-primary-custom w-100 rounded-0 py-3 fw-bold text-white" style="background-color: var(--primary-dark);">View Profile</a>
+              </div>
+            </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news-section py-5" id="news-section">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+          <span class="news-subtitle text-primary fw-bold text-uppercase ls-3 mb-2 d-block">Better Information, Better Health</span>
+          <h2 class="display-5 fw-bold text-dark">News</h2>
+        </div>
+
+        <!-- News Grid -->
+        <div class="row g-4">
+            
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-3">
+              <article class="card h-100 shadow-sm border-0 overflow-hidden">
+                <div style="height: 200px;">
+                  <img 
+                    src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" 
+                    alt="News" 
+                    class="w-100 h-100 object-fit-cover"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="card-body p-4">
+                  <div class="small text-muted mb-2">Monday 05, Sep 2021 | By Dr. Jenkins</div>
+                  <h3 class="h6 fw-bold mb-3">This Article's Title goes Here, but not too long.</h3>
+                  <div class="d-flex gap-3 small text-muted">
+                    <span><i class="bi bi-eye"></i> 68</span>
+                    <span><i class="bi bi-heart"></i> 86</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-3">
+              <article class="card h-100 shadow-sm border-0 overflow-hidden">
+                <div style="height: 200px;">
+                  <img 
+                    src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=600&q=80" 
+                    alt="News" 
+                    class="w-100 h-100 object-fit-cover"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="card-body p-4">
+                  <div class="small text-muted mb-2">Monday 05, Sep 2021 | By Dr. John Doe</div>
+                  <h3 class="h6 fw-bold mb-3">This Article's Title goes Here, but not too long.</h3>
+                  <div class="d-flex gap-3 small text-muted">
+                    <span><i class="bi bi-eye"></i> 68</span>
+                    <span><i class="bi bi-heart"></i> 86</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 col-lg-3">
+              <article class="card h-100 shadow-sm border-0 overflow-hidden">
+                <div style="height: 200px;">
+                  <img 
+                    src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&w=600&q=80" 
+                    alt="News" 
+                    class="w-100 h-100 object-fit-cover"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="card-body p-4">
+                  <div class="small text-muted mb-2">Monday 05, Sep 2021 | By Dr. Alice Smith</div>
+                  <h3 class="h6 fw-bold mb-3">This Article's Title goes Here, but not too long.</h3>
+                  <div class="d-flex gap-3 small text-muted">
+                    <span><i class="bi bi-eye"></i> 68</span>
+                    <span><i class="bi bi-heart"></i> 86</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-6 col-lg-3">
+              <article class="card h-100 shadow-sm border-0 overflow-hidden">
+                <div style="height: 200px;">
+                  <img 
+                    src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" 
+                    alt="News" 
+                    class="w-100 h-100 object-fit-cover"
+                    referrerpolicy="no-referrer"
+                  />
+                </div>
+                <div class="card-body p-4">
+                  <div class="small text-muted mb-2">Monday 05, Sep 2021 | By Dr. Neil Young</div>
+                  <h3 class="h6 fw-bold mb-3">This Article's Title goes Here, but not too long.</h3>
+                  <div class="d-flex gap-3 small text-muted">
+                    <span><i class="bi bi-eye"></i> 68</span>
+                    <span><i class="bi bi-heart"></i> 86</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+        </div>
+
+        <!-- News Carousel Dots Pagination (Simplified for Bootstrap Version) -->
+        <div class="text-center mt-5">
+          <div class="btn-group gap-2">
+            <button class="btn btn-outline-primary rounded-circle" style="width: 12px; height: 12px; padding: 0;"></button>
+            <button class="btn btn-primary rounded-circle" style="width: 12px; height: 12px; padding: 0;"></button>
+            <button class="btn btn-outline-primary rounded-circle" style="width: 12px; height: 12px; padding: 0;"></button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Book an Appointment Section -->
+    <section class="appointment-section py-5 position-relative text-white" id="appointment-section" style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center; background-attachment: fixed;">
+      <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(31, 43, 108, 0.85);"></div>
+      <div class="container position-relative z-1">
+        <div class="row g-5 align-items-center">
+          
+          <!-- Text Block -->
+          <div class="col-lg-6">
+            <h2 class="display-5 fw-bold mb-4">Book an Appointment</h2>
+            <p class="lead opacity-75">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.
+            </p>
+          </div>
+
+          <!-- Appointment Form -->
+          <div class="col-lg-6">
+            <div class="card border-0 rounded shadow-lg overflow-hidden">
+              <div class="card-header border-0 py-4 text-center text-white" style="background-color: var(--primary-dark);">
+                <h3 class="h5 fw-bold mb-0">REQUEST AN APPOINTMENT</h3>
+              </div>
+              <div class="card-body p-4 p-lg-5 bg-white">
+                <form id="appointment-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Appointment requested successfully!');">
+                  <div class="row g-3">
+                    <div class="col-md-6"><input type="text" placeholder="Name" class="form-control py-3" required /></div>
+                    <div class="col-md-6">
+                      <select class="form-select py-3" required>
+                        <option value="" disabled selected>Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6"><input type="email" placeholder="Email" class="form-control py-3" required /></div>
+                    <div class="col-md-6"><input type="tel" placeholder="Phone" class="form-control py-3" required /></div>
+                    <div class="col-md-6">
+                      <select class="form-select py-3" required>
+                        <option value="" disabled selected>Date</option>
+                        <option>Monday</option><option>Tuesday</option><option>Wednesday</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="form-select py-3" required>
+                        <option value="" disabled selected>Time</option>
+                        <option>09:00 AM</option><option>11:00 AM</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="form-select py-3" required>
+                        <option value="" disabled selected>Doctor</option>
+                        <option>Dr. John Doe</option><option>Dr. Sarah Jenkins</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6">
+                      <select class="form-select py-3" required>
+                        <option value="" disabled selected>Department</option>
+                        <option>Neurology</option><option>Cardiology</option>
+                      </select>
+                    </div>
+                    <div class="col-12"><textarea placeholder="Message" class="form-control py-3" rows="4"></textarea></div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary-custom w-100 py-3 fw-bold shadow mt-3" style="background-color: var(--primary-light); color: var(--white);">SUBMIT</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Get in Touch / Contact Section -->
+    <section class="section-padding bg-light" id="contact-section">
+      <div class="container text-center">
+        <div class="mb-5">
+          <span class="text-primary-light fw-bold text-uppercase ls-3 d-block mb-2">Get in Touch</span>
+          <h2 class="display-5 fw-bold text-primary-dark">Contact</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="contact-card contact-card-light p-5 rounded shadow-sm h-100">
+              <i class="bi bi-telephone fs-1 mb-3 d-block"></i>
+              <h3 class="h5 fw-bold mb-3">EMERGENCY</h3>
+              <p class="mb-1 fw-bold">(237) 681-812-255</p>
+              <p class="mb-0 fw-bold">(237) 666-331-894</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="contact-card contact-card-dark p-5 rounded shadow-sm h-100 text-white">
+              <i class="bi bi-geo-alt fs-1 mb-3 d-block"></i>
+              <h3 class="h5 fw-bold mb-3">LOCATION</h3>
+              <p class="mb-1 opacity-75">0123 Some place</p>
+              <p class="mb-0 opacity-75">9876 Some country</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="contact-card contact-card-light p-5 rounded shadow-sm h-100">
+              <i class="bi bi-envelope fs-1 mb-3 d-block"></i>
+              <h3 class="h5 fw-bold mb-3">EMAIL</h3>
+              <p class="mb-1 fw-bold overflow-hidden text-truncate">fildineesoe@gmil.com</p>
+              <p class="mb-0 fw-bold overflow-hidden text-truncate">myebstudios@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="contact-card contact-card-light p-5 rounded shadow-sm h-100">
+              <i class="bi bi-clock fs-1 mb-3 d-block"></i>
+              <h3 class="h5 fw-bold mb-3">WORKING HOURS</h3>
+              <p class="mb-1 fw-bold">Mon-Sat 09:00-20:00</p>
+              <p class="mb-0 fw-bold">Sunday Emergency</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDDICAL Footer Section -->
+    <footer class="pt-5 pb-4" style="background-color: var(--primary-dark); color: var(--white);">
+      <div class="container">
+        <div class="row g-4 mb-5">
+          <div class="col-lg-4 col-md-6">
+            <h2 class="font-serif mb-3 text-white">MEDDICAL</h2>
+            <p class="opacity-75">Leading the Way in Medical Excellence, Trusted Care.</p>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <h3 class="fs-5 fw-bold mb-4">Important Links</h3>
+            <ul class="list-unstyled d-flex flex-column gap-3">
+              <li><a href="#appointment-section" class="text-white text-decoration-none opacity-75">Appointment</a></li>
+              <li><a href="#doctors-section" class="text-white text-decoration-none opacity-75">Doctors</a></li>
+              <li><a href="#services-section" class="text-white text-decoration-none opacity-75">Services</a></li>
+              <li><a href="#welcome-section" class="text-white text-decoration-none opacity-75">About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="fs-5 fw-bold mb-4">Contact Us</h3>
+            <ul class="list-unstyled d-flex flex-column gap-3 opacity-75">
+              <li>Call: (237) 681-812-255</li>
+              <li>Email: fildineesoe@gmil.com</li>
+              <li>Address: 0123 Some place</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h3 class="fs-5 fw-bold mb-4 text-uppercase">Newsletter</h3>
+            <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Subscribed!');">
+              <div class="newsletter-input-container">
+                <input type="email" placeholder="Enter email" required />
+                <button type="submit" class="newsletter-btn"><i class="bi bi-send-fill"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr class="border-white opacity-25 mb-4">
+        <div class="row align-items-center justify-content-between g-3">
+          <div class="col-auto">
+            <p class="small mb-0 opacity-75">&copy; 2021 Hospital Name All Rights Reserved</p>
+          </div>
+          <div class="col-auto">
+            <div class="d-flex gap-3">
+              <a href="#" class="footer-social-circle"><i class="bi bi-linkedin"></i></a>
+              <a href="#" class="footer-social-circle"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="footer-social-circle"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Tab Interaction Script -->
+    <script>
+      const servicesData = {
+        'free-checkup': {
+          title: "Bringing Professional Healthcare Closer to You.",
+          bullets: [
+            "Complete Physical Exam",
+            "Expert General Advice",
+            "Vision & Hearing Checks",
+            "Weight Management",
+            "Blood Pressure Evaluation",
+            "Personalized Wellness Plan"
+          ],
+          paragraphs: [
+            "We believe that prevention is the cornerstone of lifelong wellness. Our complimentary health screenings are designed to give you a clear, thorough picture of your health, identifying potential issues before they develop.",
+            "Our team of clinical specialists provides compassionate guidance and diagnostic accuracy, helping you make informed decisions about your daily habits and medical care."
+          ],
+          imgTop: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=600&q=80",
+          imgBottom: "https://images.unsplash.com/photo-1527613426441-4da17471b66d?auto=format&fit=crop&w=600&q=80",
+          altTop: "Doctor checking pulse",
+          altBottom: "Blood pressure evaluation"
+        },
+        'cardiogram': {
+          title: "A passion for putting patients first.",
+          bullets: [
+            "A Passion for Healing",
+            "5-Star Care",
+            "All our best",
+            "Believe in Us",
+            "A Legacy of Excellence",
+            "Always Caring"
+          ],
+          paragraphs: [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur proin massa in. Consequat faucibus porttitor enim et.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat scelerisque tortor ornare ornare. Convallis felis vitae tortor augue. Velit nascetur proin massa in."
+          ],
+          imgTop: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=600&q=80",
+          imgBottom: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=600&q=80",
+          altTop: "Pregnant Patient Checkup",
+          altBottom: "Diverse Team of Professional Doctors"
+        },
+        'dna-testing': {
+          title: "Decoding Your Genetics for a Healthier Future.",
+          bullets: [
+            "Detailed Ancestry Mapping",
+            "Advanced Genomic Labs",
+            "Precision Health Indicators",
+            "Confidential DNA Reports",
+            "Preventative Gene Screening",
+            "Counseling Support"
+          ],
+          paragraphs: [
+            "Discover what your DNA says about your health predispositions, carrier status, and unique physical traits. Our state-of-the-art sequencing labs translate complex genomic structures into clear actionable insights.",
+            "Understanding genetic blueprints allows for highly customized therapeutic designs and nutritional optimizations, steering your life journey away from preventable hereditary concerns."
+          ],
+          imgTop: "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?auto=format&fit=crop&w=600&q=80",
+          imgBottom: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=600&q=80",
+          altTop: "Scientist in laboratory",
+          altBottom: "Technician working on DNA assays"
+        },
+        'blood-bank': {
+          title: "Every Donation Saves Lives and Strengthens Hope.",
+          bullets: [
+            "Fully Screened Blood Products",
+            "Comfortable Donation Chairs",
+            "Rapid Type Matching",
+            "Fresh Snacks & Recovery",
+            "Safe Storage & Ice-Chain",
+            "Donor Rewards Program"
+          ],
+          paragraphs: [
+            "At Meddical, we run a secure, sterile, and standard-compliant blood storage system. We maintain abundant supplies of all major and rare blood typologies, available 24/7 for acute surgical procedures and emergency trauma centers.",
+            "We encourage members of our local community to step forward and donate. A single draw takes less than fifteen minutes and can save up to three lives in urgent hospital environments."
+          ],
+          imgTop: "https://images.unsplash.com/photo-1615461066841-6116ecdacd04?auto=format&fit=crop&w=600&q=80",
+          imgBottom: "https://images.unsplash.com/photo-1536856788611-557348707db5?auto=format&fit=crop&w=600&q=80",
+          altTop: "Intravenous transfusion blood sample bag",
+          altBottom: "Nurse assisting in medical storage"
+        }
+      };
+
+      document.addEventListener('DOMContentLoaded', () => {
+        const tabButtons = document.querySelectorAll('.list-group-item');
+        const titleEl = document.getElementById('service-title');
+        const bulletsContainer = document.getElementById('service-bullets');
+        const paragraphsContainer = document.getElementById('service-paragraphs');
+        const imgTopEl = document.getElementById('service-img-top');
+        const imgBottomEl = document.getElementById('service-img-bottom');
+
+        tabButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            if (button.classList.contains('active')) return;
+
+            // Remove active class from all tabs
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            // Add active class to clicked tab
+            button.classList.add('active');
+
+            const serviceKey = button.getAttribute('data-service');
+            const data = servicesData[serviceKey];
+
+            if (data) {
+              // Smooth transition fade-out/in content
+              const elementsToFade = [titleEl, bulletsContainer, paragraphsContainer, imgTopEl, imgBottomEl];
+              
+              elementsToFade.forEach(el => {
+                if (el) {
+                  el.style.opacity = '0';
+                  el.style.transform = 'translateY(8px)';
+                  el.style.transition = 'opacity 0.2s ease, transform 0.2s ease';
+                }
+              });
+
+              setTimeout(() => {
+                // Update title
+                if (titleEl) titleEl.textContent = data.title;
+
+                // Update bullets
+                if (bulletsContainer) {
+                  bulletsContainer.innerHTML = '';
+                  data.bullets.forEach(bulletText => {
+                    const bulletItem = document.createElement('div');
+                    bulletItem.className = 'service-bullet-item';
+                    
+                    const dot = document.createElement('span');
+                    dot.className = 'bullet-dot';
+                    
+                    const text = document.createElement('span');
+                    text.className = 'bullet-text';
+                    text.textContent = bulletText;
+                    
+                    bulletItem.appendChild(dot);
+                    bulletItem.appendChild(text);
+                    bulletsContainer.appendChild(bulletItem);
+                  });
+                }
+
+                // Update paragraphs
+                if (paragraphsContainer) {
+                  paragraphsContainer.innerHTML = '';
+                  data.paragraphs.forEach(paraText => {
+                    const p = document.createElement('p');
+                    p.className = 'service-text-paragraph';
+                    p.textContent = paraText;
+                    paragraphsContainer.appendChild(p);
+                  });
+                }
+
+                // Update images
+                if (imgTopEl) {
+                  imgTopEl.src = data.imgTop;
+                  imgTopEl.alt = data.altTop;
+                }
+                if (imgBottomEl) {
+                  imgBottomEl.src = data.imgBottom;
+                  imgBottomEl.alt = data.altBottom;
+                }
+
+                // Fade back in
+                elementsToFade.forEach(el => {
+                  if (el) {
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                  }
+                });
+              }, 200);
+            }
+          });
+        });
+      });
+
+      // Doctor Carousel logic
+      document.addEventListener('DOMContentLoaded', () => {
+        const doctorsSlider = document.getElementById('doctors-slider');
+        const doctorDots = document.querySelectorAll('.doctor-dot');
+        const doctorCards = document.querySelectorAll('.doctor-card');
+
+        if (doctorsSlider && doctorDots.length > 0 && doctorCards.length > 0) {
+          // Update active dot on scroll
+          doctorsSlider.addEventListener('scroll', () => {
+            const scrollLeft = doctorsSlider.scrollLeft;
+            const containerWidth = doctorsSlider.clientWidth;
+            
+            // Calculate which card is currently closest to the center of the viewport
+            let centerIndex = 0;
+            let minDistance = Infinity;
+            
+            doctorCards.forEach((card, index) => {
+              const cardOffset = card.offsetLeft;
+              const cardWidth = card.clientWidth;
+              const cardCenter = cardOffset + (cardWidth / 2);
+              
+              const sliderCenter = scrollLeft + (containerWidth / 2);
+              const distance = Math.abs(cardCenter - sliderCenter);
+              
+              if (distance < minDistance) {
+                minDistance = distance;
+                centerIndex = index;
+              }
+            });
+
+            doctorDots.forEach((dot, index) => {
+              if (index === centerIndex) {
+                dot.classList.add('active');
+              } else {
+                dot.classList.remove('active');
+              }
+            });
+          });
+
+          // Handle dot click
+          doctorDots.forEach(dot => {
+            dot.addEventListener('click', () => {
+              const slideIndex = parseInt(dot.getAttribute('data-slide'));
+              const targetCard = doctorCards[slideIndex];
+              
+              if (targetCard) {
+                const cardOffset = targetCard.offsetLeft;
+                const cardWidth = targetCard.clientWidth;
+                const containerWidth = doctorsSlider.clientWidth;
+                
+                // Center the target card inside the slider container
+                const targetScrollLeft = cardOffset - (containerWidth / 2) + (cardWidth / 2);
+                
+                doctorsSlider.scrollTo({
+                  left: targetScrollLeft,
+                  behavior: 'smooth'
+                });
+              }
+            });
+          });
+          
+          // Initial trigger to center second card on mobile view load
+          if (window.innerWidth <= 820) {
+            setTimeout(() => {
+              const targetCard = doctorCards[1];
+              if (targetCard) {
+                const cardOffset = targetCard.offsetLeft;
+                const cardWidth = targetCard.clientWidth;
+                const containerWidth = doctorsSlider.clientWidth;
+                const targetScrollLeft = cardOffset - (containerWidth / 2) + (cardWidth / 2);
+                doctorsSlider.scrollLeft = targetScrollLeft;
+              }
+            }, 150);
+          }
+        }
+      });
+
+      // News Slider logic
+      document.addEventListener('DOMContentLoaded', () => {
+        const newsSliderTrack = document.getElementById('news-slider-track');
+        const newsDots = document.querySelectorAll('.news-dot');
+        const newsCards = document.querySelectorAll('.news-card');
+
+        if (newsSliderTrack && newsDots.length > 0 && newsCards.length > 0) {
+          // Keep track of active page
+          let activePage = 0;
+
+          // Function to navigate to page (desktop style translate, mobile style scroll)
+          function goToPage(pageIndex) {
+            activePage = pageIndex;
+            
+            // Check viewport
+            if (window.innerWidth > 820) {
+              // Desktop track slide translation
+              const percentTranslate = -pageIndex * 100;
+              newsSliderTrack.style.transform = `translateX(${percentTranslate}%)`;
+              
+              // Light up correct dot
+              newsDots.forEach((dot, index) => {
+                if (index === pageIndex) {
+                  dot.classList.add('active');
+                } else {
+                  dot.classList.remove('active');
+                }
+              });
+            } else {
+              // Mobile scrolling - calculate target card (first card of target page: Card 0, 4, or 8)
+              const cardIndex = pageIndex * 4;
+              const targetCard = newsCards[cardIndex];
+              
+              if (targetCard) {
+                const cardOffset = targetCard.offsetLeft;
+                const cardWidth = targetCard.clientWidth;
+                const containerWidth = newsSliderTrack.clientWidth;
+                
+                // Center the target card inside the track
+                const targetScrollLeft = cardOffset - (containerWidth / 2) + (cardWidth / 2);
+                
+                newsSliderTrack.scrollTo({
+                  left: targetScrollLeft,
+                  behavior: 'smooth'
+                });
+              }
+            }
+          }
+
+          // Desktop/mobile interactive dot event handlers
+          newsDots.forEach(dot => {
+            dot.addEventListener('click', () => {
+              const pageIndex = parseInt(dot.getAttribute('data-page'));
+              goToPage(pageIndex);
+            });
+          });
+
+          // Mobile scroll list detection to sync dots automatically on manual swipe
+          newsSliderTrack.addEventListener('scroll', () => {
+            if (window.innerWidth <= 820) {
+              const scrollLeft = newsSliderTrack.scrollLeft;
+              const containerWidth = newsSliderTrack.clientWidth;
+              
+              let closestCardIndex = 0;
+              let minDistance = Infinity;
+              
+              newsCards.forEach((card, index) => {
+                const cardOffset = card.offsetLeft;
+                const cardWidth = card.clientWidth;
+                const cardCenter = cardOffset + (cardWidth / 2);
+                
+                const sliderCenter = scrollLeft + (containerWidth / 2);
+                const distance = Math.abs(cardCenter - sliderCenter);
+                
+                if (distance < minDistance) {
+                  minDistance = distance;
+                  closestCardIndex = index;
+                }
+              });
+
+              // Map card index back to page index (cards 0-3 -> page 0, cards 4-7 -> page 1, cards 8-11 -> page 2)
+              const mappedPage = Math.floor(closestCardIndex / 4);
+              
+              newsDots.forEach((dot, index) => {
+                if (index === mappedPage) {
+                  dot.classList.add('active');
+                } else {
+                  dot.classList.remove('active');
+                }
+              });
+            }
+          });
+
+          // Handle window resizing dynamically to reset carousel behavior
+          window.addEventListener('resize', () => {
+            if (window.innerWidth > 820) {
+              newsSliderTrack.style.transform = `translateX(${-activePage * 100}%)`;
+            } else {
+              newsSliderTrack.style.transform = 'none';
+            }
+          });
+        }
+      });
+    </script>
+
+  </body>
+</html>
+
